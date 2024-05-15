@@ -30,7 +30,7 @@ async def delete_message(message: types.Message):
 
 @dp.message_handler(IsPrivate())
 async def start(message: types.Message):
-    await message.answer("🖐 Assalomu alaykum!\n\nBotni guruhingizga qo'shing!\n\n"
+    await message.answer("🖐 Assalomu alaykum!\n\nBotni guruhingizga qo'shing va admin qiling!\n\n"
                          "Bot guruhingizdagi kirdi-chiqdini tozalab turadi.")
 
 
